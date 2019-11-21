@@ -1,7 +1,12 @@
 html {
+  box-sizing: border-box;
   padding: 5px;
   margin: .9rem;
   font-family: Ubuntu, sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
 }
 
 body {
