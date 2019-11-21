@@ -79,12 +79,18 @@ a:hover {
 
 @media only screen and (min-width: 60em) {
 
-
+  h1 {
+    display: inline-block;
+    width: 25%;
+    justify-content: space-between;
+  }
 
 }
 
 @media only screen and (min-width: 90em) {
 
-
+  a {
+    align-items: center;
+  }
 
 }
