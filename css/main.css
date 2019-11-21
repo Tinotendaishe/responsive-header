@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  padding: 5px;
+  padding: 0;
   margin: .9rem;
   font-family: Ubuntu, sans-serif;
   @-moz-viewport { width: device-width; scale: 1; }
@@ -16,8 +16,9 @@ html {
 
 body {
   padding: inherit;
-  margin: auto;
   font-family: Ubuntu, sans-serif;
+  text-decoration: none;
+  margin: 0;
 }
 
 h1 {
@@ -31,16 +32,59 @@ h1 {
 a {
   color: #6c8fe0;
   font-size: 1.125rem;
-  display: flex;
-  justify-content: flex-end;
   text-decoration: none;
+  padding: .5em .75em;
+  display: block;
+}
+
+li {
+  width: 100%;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 header {
   background-color: #18294f;
+  padding: .5em;
+  margin: -2.75rem;
 }
 
 a:hover {
   background-color: #6c8fe0;
   color: #fff;
+}
+
+@media only screen and (min-width: 25em) {
+
+  li {
+    width: 50%;
+    text-align: center;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  li {
+    width: 25%;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+
+
+}
+
+@media only screen and (min-width: 90em) {
+
+
+
 }
