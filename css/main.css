@@ -1,0 +1,28 @@
+html {
+  padding: 5px;
+  margin: .9rem;
+  font-family: Ubuntu, sans-serif;
+}
+
+body {
+  padding: inherit;
+  margin: auto;
+  font-family: Ubuntu, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-family: Ubuntu, sans-serif;
+}
+
+a {
+
+}
+
+nav {
+
+}
+
+a:hover {
+
+}
