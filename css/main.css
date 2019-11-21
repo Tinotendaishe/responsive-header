@@ -3,12 +3,13 @@ html {
   padding: 0;
   margin: .9rem;
   font-family: Ubuntu, sans-serif;
+}
+
   @-moz-viewport { width: device-width; scale: 1; }
   @-ms-viewport { width: device-width; scale: 1; }
   @-o-viewport { width: device-width; scale: 1; }
   @-webkit-viewport { width: device-width; scale: 1; }
   @viewport { width: device-width; scale: 1; }
-}
 
 *, *::before, *::after {
   box-sizing: inherit;
@@ -90,7 +91,7 @@ a:hover {
 @media only screen and (min-width: 90em) {
 
   a {
-    align-items: center;
+    align-items: baseline;
   }
 
 }
